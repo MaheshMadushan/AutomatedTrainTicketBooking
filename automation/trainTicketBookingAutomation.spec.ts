@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("has title", async ({ page }) => {
+test("Book train ticked from galle to colombo", async ({ page }) => {
   await page.goto("https://seatreservation.railway.gov.lk/mtktwebslr/");
 
   // select galle
