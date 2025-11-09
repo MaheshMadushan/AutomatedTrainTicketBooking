@@ -5,7 +5,7 @@
     - `git clone https://github.com/MaheshMadushan/AutomatedTrainTicketBooking.git`
 - Please read the code and change nessary information that as user intended.
     - `ctrl + f` for phrase `CHANGE as user intened` and change values accordingly.
-- Install playwright (should have nodejs installed - [[text](https://nodejs.org/en/download)](https://nodejs.org/en/download))
+- Install playwright (should have nodejs installed - [(https://nodejs.org/en/download)](https://nodejs.org/en/download))
     - `npm init playwright@latest`
 - Run the playwright automation and have your ticket booked
     - `npx playwright test --ui`
