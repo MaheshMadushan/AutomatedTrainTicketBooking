@@ -27,7 +27,7 @@ test("Book train ticked from galle to colombo", async ({ page }) => {
 
   // purge recaptcha
   await page.evaluate(() => {
-    const elementToDelete = document.querySelector("#RecaptchaField"); // Replace with your actual selector
+    const elementToDelete = document.querySelector("#RecaptchaField");
     if (elementToDelete) {
       elementToDelete.remove();
     }
